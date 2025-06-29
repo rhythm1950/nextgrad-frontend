@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - NextGrad</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" crossorigin href="/assets/style-HXSXS40Y.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <a href="index.html" class="nav-logo">NextGrad</a>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="activities.html" class="nav-link">Activities</a></li>
+                    <li><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li><a href="login.html" class="nav-link">Login</a></li>
+                    <li><a href="profile.html" class="nav-link profile-icon active">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 12C14.7614 12 17 9.76142 17 7C17 4.23858 14.7614 2 12 2C9.23858 2 7 4.23858 7 7C7 9.76142 9.23858 12 12 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M20.5899 22C20.5899 18.13 16.7399 15 11.9999 15C7.25991 15 3.40991 18.13 3.40991 22" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a></li>
+                    <li><a href="register.html" class="nav-link btn-primary">Register</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1 class="page-title">Student Profile</h1>
+                <p class="page-subtitle">Manage your account and track your campus activities</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="profile-grid">
+                    <div class="profile-sidebar">
+                        <div class="profile-card">
+                            <div class="profile-avatar">
+                                <div class="avatar-placeholder">
+                                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12 12C14.7614 12 17 9.76142 17 7C17 4.23858 14.7614 2 12 2C9.23858 2 7 4.23858 7 7C7 9.76142 9.23858 12 12 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M20.5899 22C20.5899 18.13 16.7399 15 11.9999 15C7.25991 15 3.40991 18.13 3.40991 22" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="profile-info">
+                                <h3>Arjun Rahman</h3>
+                                <p>Computer Science Major</p>
+                                <p>Class of 2026</p>
+                                <p>Student ID: NG2024001</p>
+                            </div>
+                            <div class="profile-stats">
+                                <div class="stat-item">
+                                    <span class="stat-number">15</span>
+                                    <span class="stat-label">Events Attended</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-number">4</span>
+                                    <span class="stat-label">Clubs Joined</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-number">3.8</span>
+                                    <span class="stat-label">GPA</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="profile-menu">
+                            <button class="menu-item active" data-tab="overview">Overview</button>
+                            <button class="menu-item" data-tab="activities">My Activities</button>
+                            <button class="menu-item" data-tab="clubs">My Clubs</button>
+                            <button class="menu-item" data-tab="settings">Settings</button>
+                        </div>
+                    </div>
+
+                    <div class="profile-content">
+                        <div class="tab-content active" id="overview">
+                            <h2>Profile Overview</h2>
+                            <div class="overview-grid">
+                                <div class="overview-card">
+                                    <h4>Recent Activities</h4>
+                                    <div class="activity-list">
+                                        <div class="activity-item">
+                                            <span class="activity-name">Spring Tech Symposium</span>
+                                            <span class="activity-date">March 15, 2025</span>
+                                        </div>
+                                        <div class="activity-item">
+                                            <span class="activity-name">Career Fair 2025</span>
+                                            <span class="activity-date">March 22, 2025</span>
+                                        </div>
+                                        <div class="activity-item">
+                                            <span class="activity-name">Cultural Night</span>
+                                            <span class="activity-date">March 28, 2025</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="overview-card">
+                                    <h4>Upcoming Events</h4>
+                                    <div class="activity-list">
+                                        <div class="activity-item">
+                                            <span class="activity-name">Music Festival</span>
+                                            <span class="activity-date">April 12, 2025</span>
+                                        </div>
+                                        <div class="activity-item">
+                                            <span class="activity-name">Robotics Competition</span>
+                                            <span class="activity-date">April 5, 2025</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-content" id="activities">
+                            <h2>My Activities</h2>
+                            <div class="activities-list">
+                                <div class="activity-card">
+                                    <div class="activity-header">
+                                        <h4>Spring Tech Symposium</h4>
+                                        <span class="status-badge completed">Completed</span>
+                                    </div>
+                                    <p>March 15, 2025 • University Conference Center</p>
+                                    <p>Attended sessions on AI and Machine Learning</p>
+                                </div>
+                                
+                                <div class="activity-card">
+                                    <div class="activity-header">
+                                        <h4>Career Fair 2025</h4>
+                                        <span class="status-badge completed">Completed</span>
+                                    </div>
+                                    <p>March 22, 2025 • Sports Complex</p>
+                                    <p>Connected with 5 potential employers</p>
+                                </div>
+                                
+                                <div class="activity-card">
+                                    <div class="activity-header">
+                                        <h4>Music Festival</h4>
+                                        <span class="status-badge registered">Registered</span>
+                                    </div>
+                                    <p>April 12, 2025 • Campus Quad</p>
+                                    <p>Looking forward to the live performances</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-content" id="clubs">
+                            <h2>My Clubs</h2>
+                            <div class="clubs-list">
+                                <div class="club-membership-card">
+                                    <div class="club-icon">💻</div>
+                                    <div class="club-details">
+                                        <h4>Tech Society</h4>
+                                        <p>Member since September 2024</p>
+                                        <p>Participated in 3 hackathons this year</p>
+                                    </div>
+                                    <div class="club-role">
+                                        <span class="role-badge">Member</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="club-membership-card">
+                                    <div class="club-icon">🎨</div>
+                                    <div class="club-details">
+                                        <h4>Arts & Culture</h4>
+                                        <p>Member since January 2025</p>
+                                        <p>Contributed to the Spring Art Exhibition</p>
+                                    </div>
+                                    <div class="club-role">
+                                        <span class="role-badge">Member</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="club-membership-card">
+                                    <div class="club-icon">📚</div>
+                                    <div class="club-details">
+                                        <h4>Academic Society</h4>
+                                        <p>Member since October 2024</p>
+                                        <p>Regular participant in study groups</p>
+                                    </div>
+                                    <div class="club-role">
+                                        <span class="role-badge volunteer">Volunteer</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-content" id="settings">
+                            <h2>Account Settings</h2>
+                            <form class="settings-form">
+                                <div class="form-section">
+                                    <h4>Personal Information</h4>
+                                    <div class="form-group">
+                                        <label for="fullName">Full Name</label>
+                                        <input type="text" id="fullName" value="Arjun Rahman">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">Email Address</label>
+                                        <input type="email" id="email" value="arjun.rahman@student.nextgrad.edu">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="phone">Phone Number</label>
+                                        <input type="tel" id="phone" value="+880 1712-345678">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="major">Major</label>
+                                        <input type="text" id="major" value="Computer Science">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="year">Graduation Year</label>
+                                        <select id="year">
+                                            <option value="2025">2025</option>
+                                            <option value="2026" selected>2026</option>
+                                            <option value="2027">2027</option>
+                                            <option value="2028">2028</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="hometown">Hometown</label>
+                                        <input type="text" id="hometown" value="Dhaka, Bangladesh">
+                                    </div>
+                                </div>
+                                
+                                <div class="form-section">
+                                    <h4>Notification Preferences</h4>
+                                    <div class="checkbox-group">
+                                        <label class="checkbox-container">
+                                            <input type="checkbox" checked>
+                                            <span class="checkmark"></span>
+                                            Email notifications for new events
+                                        </label>
+                                        <label class="checkbox-container">
+                                            <input type="checkbox" checked>
+                                            <span class="checkmark"></span>
+                                            Club activity updates
+                                        </label>
+                                        <label class="checkbox-container">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                            Newsletter subscription
+                                        </label>
+                                        <label class="checkbox-container">
+                                            <input type="checkbox" checked>
+                                            <span class="checkmark"></span>
+                                            SMS notifications for urgent updates
+                                        </label>
+                                    </div>
+                                </div>
+                                
+                                <button type="submit" class="btn btn-primary">Save Changes</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>NextGrad</h3>
+                    <p>Empowering students and fostering academic excellence since 2020.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">Instagram</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="activities.html">Activities</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul class="footer-contact">
+                        <li>📧 info@nextgrad.edu</li>
+                        <li>📞 (555) 123-4567</li>
+                        <li>📍 123 College Ave, Education City</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 NextGrad. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
