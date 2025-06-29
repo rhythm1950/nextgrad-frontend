@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activities - NextGrad</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <a href="index.html" class="nav-logo">NextGrad</a>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="activities.html" class="nav-link active">Activities</a></li>
+                    <li><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li><a href="login.html" class="nav-link">Login</a></li>
+                    <li><a href="profile.html" class="nav-link profile-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 12C14.7614 12 17 9.76142 17 7C17 4.23858 14.7614 2 12 2C9.23858 2 7 4.23858 7 7C7 9.76142 9.23858 12 12 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M20.5899 22C20.5899 18.13 16.7399 15 11.9999 15C7.25991 15 3.40991 18.13 3.40991 22" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a></li>
+                    <li><a href="register.html" class="nav-link btn-primary">Register</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1 class="page-title">Campus Activities</h1>
+                <p class="page-subtitle">Discover exciting events, workshops, and activities happening on campus</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="activities-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="academic">Academic</button>
+                    <button class="filter-btn" data-filter="arts">Arts</button>
+                    <button class="filter-btn" data-filter="sports">Sports</button>
+                    <button class="filter-btn" data-filter="social">Social</button>
+                </div>
+
+                <div class="activities-table">
+                    <div class="table-header">
+                        <div class="table-cell">Activity Name</div>
+                        <div class="table-cell">Date & Time</div>
+                        <div class="table-cell">Location</div>
+                        <div class="table-cell">Category</div>
+                        <div class="table-cell">Action</div>
+                    </div>
+
+                    <div class="activity-row" data-category="academic">
+                        <div class="table-cell">
+                            <h4>Annual Science Symposium</h4>
+                            <p>Explore cutting-edge research and innovations</p>
+                        </div>
+                        <div class="table-cell">
+                            <div class="date-time">
+                                <span class="date">2025-03-15</span>
+                                <span class="time">9:00 AM - 5:00 PM</span>
+                            </div>
+                        </div>
+                        <div class="table-cell">University Conference Center</div>
+                        <div class="table-cell">
+                            <span class="category-tag academic">Academic</span>
+                        </div>
+                        <div class="table-cell">
+                            <button class="btn btn-primary btn-small">Register</button>
+                        </div>
+                    </div>
+
+                    <div class="activity-row" data-category="arts">
+                        <div class="table-cell">
+                            <h4>Spring Art Exhibition</h4>
+                            <p>Showcase of student and faculty artwork</p>
+                        </div>
+                        <div class="table-cell">
+                            <div class="date-time">
+                                <span class="date">2025-03-22</span>
+                                <span class="time">10:00 AM - 4:00 PM</span>
+                            </div>
+                        </div>
+                        <div class="table-cell">Art Gallery</div>
+                        <div class="table-cell">
+                            <span class="category-tag arts">Arts</span>
+                        </div>
+                        <div class="table-cell">
+                            <button class="btn btn-primary btn-small">Register</button>
+                        </div>
+                    </div>
+
+                    <div class="activity-row" data-category="sports">
+                        <div class="table-cell">
+                            <h4>Intercollegiate Basketball Tournament</h4>
+                            <p>Competitive basketball championship</p>
+                        </div>
+                        <div class="table-cell">
+                            <div class="date-time">
+                                <span class="date">2025-03-18</span>
+                                <span class="time">1:00 PM - 6:00 PM</span>
+                            </div>
+                        </div>
+                        <div class="table-cell">Main Gymnasium</div>
+                        <div class="table-cell">
+                            <span class="category-tag sports">Sports</span>
+                        </div>
+                        <div class="table-cell">
+                            <button class="btn btn-primary btn-small">Register</button>
+                        </div>
+                    </div>
+
+                    <div class="activity-row" data-category="academic">
+                        <div class="table-cell">
+                            <h4>Advanced Coding Workshop</h4>
+                            <p>Learn modern programming techniques</p>
+                        </div>
+                        <div class="table-cell">
+                            <div class="date-time">
+                                <span class="date">2025-03-30</span>
+                                <span class="time">2:00 PM - 5:00 PM</span>
+                            </div>
+                        </div>
+                        <div class="table-cell">Computer Lab B</div>
+                        <div class="table-cell">
+                            <span class="category-tag academic">Academic</span>
+                        </div>
+                        <div class="table-cell">
+                            <button class="btn btn-primary btn-small">Register</button>
+                        </div>
+                    </div>
+
+                    <div class="activity-row" data-category="arts">
+                        <div class="table-cell">
+                            <h4>Music Festival</h4>
+                            <p>Live performances by student bands</p>
+                        </div>
+                        <div class="table-cell">
+                            <div class="date-time">
+                                <span class="date">2025-04-12</span>
+                                <span class="time">4:00 PM - 10:00 PM</span>
+                            </div>
+                        </div>
+                        <div class="table-cell">Campus Quad</div>
+                        <div class="table-cell">
+                            <span class="category-tag arts">Arts</span>
+                        </div>
+                        <div class="table-cell">
+                            <button class="btn btn-primary btn-small">Register</button>
+                        </div>
+                    </div>
+
+                    <div class="activity-row" data-category="academic">
+                        <div class="table-cell">
+                            <h4>Robotics Competition</h4>
+                            <p>Design and build autonomous robots</p>
+                        </div>
+                        <div class="table-cell">
+                            <div class="date-time">
+                                <span class="date">2025-04-05</span>
+                                <span class="time">10:00 AM - 3:00 PM</span>
+                            </div>
+                        </div>
+                        <div class="table-cell">Engineering Building</div>
+                        <div class="table-cell">
+                            <span class="category-tag academic">Academic</span>
+                        </div>
+                        <div class="table-cell">
+                            <button class="btn btn-primary btn-small">Register</button>
+                        </div>
+                    </div>
+
+                    <div class="activity-row" data-category="social">
+                        <div class="table-cell">
+                            <h4>International Food Festival</h4>
+                            <p>Taste cuisines from around the world</p>
+                        </div>
+                        <div class="table-cell">
+                            <div class="date-time">
+                                <span class="date">2025-04-20</span>
+                                <span class="time">11:00 AM - 3:00 PM</span>
+                            </div>
+                        </div>
+                        <div class="table-cell">Student Center Plaza</div>
+                        <div class="table-cell">
+                            <span class="category-tag social">Social</span>
+                        </div>
+                        <div class="table-cell">
+                            <button class="btn btn-primary btn-small">Register</button>
+                        </div>
+                    </div>
+
+                    <div class="activity-row" data-category="sports">
+                        <div class="table-cell">
+                            <h4>Annual Marathon</h4>
+                            <p>Campus-wide running event for all levels</p>
+                        </div>
+                        <div class="table-cell">
+                            <div class="date-time">
+                                <span class="date">2025-04-25</span>
+                                <span class="time">7:00 AM - 12:00 PM</span>
+                            </div>
+                        </div>
+                        <div class="table-cell">Campus Track</div>
+                        <div class="table-cell">
+                            <span class="category-tag sports">Sports</span>
+                        </div>
+                        <div class="table-cell">
+                            <button class="btn btn-primary btn-small">Register</button>
+                        </div>
+                    </div>
+
+                    <div class="activity-row" data-category="social">
+                        <div class="table-cell">
+                            <h4>Career Networking Night</h4>
+                            <p>Connect with industry professionals</p>
+                        </div>
+                        <div class="table-cell">
+                            <div class="date-time">
+                                <span class="date">2025-05-08</span>
+                                <span class="time">6:00 PM - 9:00 PM</span>
+                            </div>
+                        </div>
+                        <div class="table-cell">Business Center</div>
+                        <div class="table-cell">
+                            <span class="category-tag social">Social</span>
+                        </div>
+                        <div class="table-cell">
+                            <button class="btn btn-primary btn-small">Register</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>NextGrad</h3>
+                    <p>Empowering students and fostering academic excellence since 2020.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">Instagram</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="activities.html">Activities</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul class="footer-contact">
+                        <li>📧 info@nextgrad.edu</li>
+                        <li>📞 (555) 123-4567</li>
+                        <li>📍 123 College Ave, Education City</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 NextGrad. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
